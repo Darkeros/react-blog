@@ -477,8 +477,15 @@ module.exports = function(webpackEnv) {
               exclude: /node_modules/
             },
             {
-              test: /\.css$/,
-              loader: 'style!css'
+              exclude: [/\.js$/, /\.html$/, /\.json$/, /\.scss$/],
+              loader: require.resolve('file-loader'),
+              options: {
+                name: 'static/media/[name].[hash:8].[ext]'
+              }
+            },
+            {
+              test: /\.scss$/,
+              loaders: ['style-loader', 'css-loader', 'sass-loader']
             }
             // ** STOP ** Are you adding a new loader?
             // Make sure to add the new loader(s) before the "file" loader.
