@@ -6,7 +6,6 @@ import './header.scss'
 
 const Header = (): any => {
   const { Header } = Layout
-  // https://avatars1.githubusercontent.com/u/8186664?s=460&v=4
   return (
     <Layout className='custom-layout'>
       <Header className='custom-header'>
@@ -14,7 +13,7 @@ const Header = (): any => {
           <Col className='blog-name-box' span={5}>
             <div className='blog-name'>
               <Icon type='customer-service' theme='twoTone' />
-              luka的博客
+              luka
               <span className='line'></span>
             </div>
           </Col>
