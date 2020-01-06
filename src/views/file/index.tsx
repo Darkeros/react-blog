@@ -1,7 +1,7 @@
 import React from 'react'
 
-const File = () => {
+const Files = () => {
   return <div>File</div>
 }
 
-export default File
+export default Files

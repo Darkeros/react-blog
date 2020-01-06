@@ -1,9 +1,9 @@
 import React from 'react'
-import './index.scss'
+import './sidlers.scss'
 
-const Sider = () => {
+const Sidlers = () => {
   return (
-    <div className='sider-content'>
+    <div className='sidlers-content'>
       <div className='user-model'>
         <div className='user-img-box'>
           <img src={require('../../assets/img/user.jpg')} alt='' />
@@ -15,4 +15,4 @@ const Sider = () => {
   )
 }
 
-export default Sider
+export default Sidlers
