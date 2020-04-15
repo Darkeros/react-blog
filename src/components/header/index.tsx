@@ -7,43 +7,43 @@ import './header.scss'
 const Header = (): any => {
   const { Header } = Layout
   return (
-    <Layout className='custom-layout'>
-      <Header className='custom-header'>
-        <Row className='custom-row'>
-          <Col className='blog-name-box' span={5}>
-            <div className='blog-name'>
-              <Icon type='customer-service' theme='twoTone' />
+    <Layout className="custom-layout">
+      <Header className="custom-header">
+        <Row className="custom-row">
+          <Col className="blog-name-box" span={5}>
+            <div className="blog-name">
+              <Icon type="customer-service" theme="twoTone" />
               luka
-              <span className='line'></span>
+              <span className="line"></span>
             </div>
           </Col>
           <Col span={10}>
-            <Icon type='search' />
-            <Input placeholder='搜索文章' className='header-search' />
+            <Icon type="search" />
+            <Input placeholder="搜索文章" className="header-search" />
           </Col>
           <Col span={6}>
-            <Menu mode='horizontal'>
-              <Menu.Item key='home'>
-                <Link to='/home'>
-                  <Icon type='home' />
+            <Menu mode="horizontal">
+              <Menu.Item key="home">
+                <Link to="/home">
+                  <Icon type="home" />
                   首页
                 </Link>
               </Menu.Item>
-              <Menu.Item key='file'>
-                <Link to='/file'>
-                  <Icon type='file' />
+              <Menu.Item key="file">
+                <Link to="/file">
+                  <Icon type="file" />
                   归档
                 </Link>
               </Menu.Item>
-              <Menu.Item key='classification'>
-                <Link to='/heart'>
-                  <Icon type='appstore' />
+              <Menu.Item key="classification">
+                <Link to="/heart">
+                  <Icon type="appstore" />
                   分类
                 </Link>
               </Menu.Item>
-              <Menu.Item key='about'>
-                <Link to='/about'>
-                  <Icon type='check-circle' />
+              <Menu.Item key="about">
+                <Link to="/about">
+                  <Icon type="check-circle" />
                   关于
                 </Link>
               </Menu.Item>

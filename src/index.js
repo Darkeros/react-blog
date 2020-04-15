@@ -11,7 +11,7 @@ const { Content } = Layout
 
 const App = () => {
   return (
-    <HashRouter basename='/'>
+    <HashRouter basename="/">
       <Layout>
         <Header />
         <Row span={24}>

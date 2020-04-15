@@ -1,24 +1,62 @@
 .sidlers-content {
   overflow: hidden;
+
   .user-model {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
     .user-img-box {
       width: 120px;
       height: 120px;
+
       img {
         width: 100%;
         border-radius: 50%;
       }
     }
+
     .username {
       width: 100%;
+      font-weight: 700;
+      font-size: 16px;
       text-align: center;
+      padding: 10px 0;
     }
+
     .introduce {
       width: 100%;
       text-align: center;
+      font-size: 12px;
     }
+
+    .hot-articles-list {
+      padding-left: 0;
+      width: 100%;
+      margin-bottom: 0;
+
+      li {
+        list-style: none;
+        height: 35px;
+        line-height: 35px;
+        color: #8590a6;
+        width: 100%;
+        padding-left: 20px;
+      }
+
+      li:hover {
+        color: #7ebaf1;
+        background-color: #e6f7ff;
+      }
+    }
+
+    .tag-list {
+      padding-left: 0;
+
+      .ant-tag {
+        margin: 5px 10px;
+      }
+    }
+
   }
 }
