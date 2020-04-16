@@ -1,0 +1,32 @@
+.app-home {
+  width: 100%;
+
+  .app-home-list {
+    li {
+      width: 96%;
+      height: 100px;
+      padding: 0 20px;
+      margin: 20px auto;
+      list-style: none;
+      transition: all .2s linear;
+      border: 1px solid #e8e8e8;
+
+      .ant-divider-inner-text {
+        .title {
+          font-weight: 700;
+          font-size: 22px;
+          color: #394d69;
+        }
+
+        .date {
+          padding-left: 20px;
+          font-size: 5px;
+        }
+      }
+    }
+
+    li:hover {
+      box-shadow: 0px 10px 20px #ccc;
+    }
+  }
+}

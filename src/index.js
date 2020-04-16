@@ -18,11 +18,12 @@ const App = () => {
           <Col span={5}>
             <Sidlers />
           </Col>
-          <Col>
+          <Col span={14}>
             <Content>
               <Router />
             </Content>
           </Col>
+          <Col span={5}></Col>
         </Row>
       </Layout>
     </HashRouter>

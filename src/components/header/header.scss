@@ -13,34 +13,37 @@
 
   .custom-row {
     display: flex;
+
+    .blog-name-box {
+      .blog-name {
+        text-align: center;
+
+        .line {
+          height: 25px;
+          display: inline-block;
+          border-right: 1px solid #e8e8e8;
+          position: absolute;
+          right: 0px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+
+    .header-search {
+      width: 300px;
+      outline: none;
+      border: 0;
+      box-shadow: none;
+      background: transparent;
+    }
+
+    .search-icon {
+      padding-left: 15px;
+    }
   }
 
   .ant-menu-horizontal {
     line-height: 64px;
-  }
-
-  .header-search {
-    width: 300px;
-    outline: none;
-    border: 0;
-    box-shadow: none;
-    background: transparent;
-  }
-
-  .blog-name-box {
-    .blog-name {
-      text-align: center;
-
-      .line {
-        width: 1px;
-        height: 25px;
-        display: inline-block;
-        background: #ddd;
-        position: absolute;
-        right: 15px;
-        top: 50%;
-        transform: translateY(-50%);
-      }
-    }
   }
 }
